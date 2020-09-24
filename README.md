@@ -49,27 +49,15 @@ android {
 #### Lifecycle | LiveData | ViewModel
 ```gradle
 dependencies {
-    def lifecycle_version = "2.0.0"
-
-    // ViewModel and LiveData
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    //android lifeCycle
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
     
-    // alternatively - just ViewModel
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
-    
-    // alternatively - just LiveData
+    // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
     
-    // alternatively - Lifecycles only (no ViewModel or LiveData). Some UI
-    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
-
-    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
-
-    // optional - ReactiveStreams support for LiveData
-    implementation "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycle_version"
-
-    // optional - Test helpers for LiveData
-    testImplementation "androidx.arch.core:core-testing:$lifecycle_version"
+    // Annotation processor
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 }
 ```
 [doc](https://developer.android.com/topic/libraries/architecture/livedata) |  [release](https://developer.android.com/jetpack/androidx/releases/lifecycle) | [coroutine support](https://developer.android.com/topic/libraries/architecture/coroutines)
