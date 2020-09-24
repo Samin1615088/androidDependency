@@ -49,6 +49,9 @@ android {
 #### Lifecycle | LiveData | ViewModel
 ```gradle
 dependencies {
+    
+    def lifecycle_version = "2.2.0"
+    
     //android lifeCycle
     // ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
