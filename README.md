@@ -63,7 +63,7 @@ dependencies {
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 }
 ```
-[doc](https://developer.android.com/topic/libraries/architecture/livedata) |  [release](https://developer.android.com/jetpack/androidx/releases/lifecycle) | [coroutine support](https://developer.android.com/topic/libraries/architecture/coroutines) | [youtube](https://www.youtube.com/watch?v=vgQ32kP8SEs)
+[doc](https://developer.android.com/topic/libraries/architecture/livedata) |  [release](https://developer.android.com/jetpack/androidx/releases/lifecycle) | [coroutine support](https://developer.android.com/topic/libraries/architecture/coroutines) 
 
 ---
 
@@ -121,7 +121,7 @@ dependencies {
  
 }
 ```
-[doc](https://developer.android.com/topic/libraries/architecture/paging/) |  [release](https://developer.android.com/jetpack/androidx/releases/paging)
+[doc](https://developer.android.com/topic/libraries/architecture/room/) |  [release](https://developer.android.com/jetpack/androidx/releases/room)
 
 ---
 
