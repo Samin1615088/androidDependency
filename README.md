@@ -276,6 +276,12 @@ dependencies {
 #### okHttp
 ```gradle
 dependencies {
+  /*
+  // I used this one only for HttpLoggingInterceptor
+  
+  implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+  */  
+
   implementation "com.squareup.okhttp3:okhttp:3.14.1"
   
   testImplementation "com.squareup.okhttp3:mockwebserver:3.14.1"
