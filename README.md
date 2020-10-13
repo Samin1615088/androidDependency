@@ -3,6 +3,20 @@
 
 #### [Google Version Doc](https://developer.android.com/jetpack/androidx/versions)
 
+### Good To Have dependency version number in one place
+```
+After that open build.gradle(Module:app) file and add below code(basically it's a version for our dependency).
+
+//Version number for their dependencies :)
+ext {
+    roomVersion = '2.2.1'
+    archLifecycleVersion = '2.2.0'
+    coreTestingVersion = '2.1.0'
+    materialVersion = '1.0.0'
+}
+```
+[Increment Help](https://gist.github.com/nameisjayant/789c31057bdd3e670b309d5f83443d6d#file-build-gradle-module-app)
+
 ## Architecture
 
 ### Good To Have Configure
@@ -295,6 +309,7 @@ dependencies {
 ```gradle
 dependencies {
     def retrofit_version = "2.5.0"
+    //myself : donot know why after 2.6.0 version I got crashes on app
     
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     
