@@ -3,7 +3,7 @@
 
 #### [Google Version Doc](https://developer.android.com/jetpack/androidx/versions)
 
-### Good To Have dependency version number in one place
+### Good To Have dependency version number in one place (not practiced)
 ```
 After that open build.gradle(Project: projectname) file and add below code(basically it's a version for our dependency).
 
