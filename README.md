@@ -5,7 +5,7 @@
 
 ### Good To Have dependency version number in one place
 ```
-After that open build.gradle(Module:app) file and add below code(basically it's a version for our dependency).
+After that open build.gradle(Project: projectname) file and add below code(basically it's a version for our dependency).
 
 //Version number for their dependencies :)
 ext {
